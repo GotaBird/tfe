@@ -1,5 +1,5 @@
 
-# Php et site web de mon Travaille de fin d'étude.
+# Php et site web de mon Travail de fin d'étude.
 
 **Haute Ecole Albert Jacquart, DWM**
 
