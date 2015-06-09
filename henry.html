@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width" />
+        <title>Rencontrer Henry - Styx</title>
+         <meta name="description" content="Styx est un projet de jeu imaginé pour iPad. Rencontrez Henry, l'un des personnages principaux.">
+    <meta name="Keywords" content="Styx, case study, jeu iPad, styx game">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+         <link rel="stylesheet" type="text/css" href="css/responsive.css" >
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="shortcut icon" href="img/favicon.png">
+    </head>
+    <body>
+       <aside>
+        <h1><a href="index.html">Styx</a></h1>
+        
+        <a id="open" href="#open">Menu</a>
+        
+        <ul>
+            <li><a href="index.html"><h5>Introduction</h5><p>Envie d'une histoire</p></a></li>
+            <li class="current"><a href="parcours.html"><h5>Parcours</h5><p>Première approche</p></a></li>
+            <li><a href="hub/index.php"><h5>Hub</h5><p>Et ensuite ?</p></a></li>
+            <li><a href="partage.php"><h5>Partage</h5><p>À vos crayons !</p></a></li>
+        </ul>
+    </aside><!-- end aside -->
+        
+        
+ <div id="container">
+     <div id="en-tete" style="background-image:url(img/henry-cover.jpg);">
+        
+    </div>
+     <div class="content" id="description_persos" style="display:block; visibility: visible; opacity:1;">
+        
+            <h3>Henry</h3>
+            
+            <h4>Histoire</h4>
+            
+            <p>Sa principale caractéristique serait qu’il dispose d’une moustache plutôt imposante, 
+mais ne vous y trompez pas son imagination l’est d’autant plus. </p>
+ 
+            <p>Contrefacteur de son vivant, c’est suite à une dernière fraude auprès d’une célèbre 
+compagnie d’aéronef qu’il s’est retrouvé à errer, coincé sur les rives du Styx. Ne pouvant pas prendre en charge les frais de son passage en Outre-Monde, il déambule avec le but secret de trouver le moyen 
+d’effectuer la traversée du Styx en outrepassant la surveillance du Passeur. </p>
+         
+            <h4>Concept</h4>
+            
+            <p>Née le 5 mars 2015 après deux mois de conception, Henry est le premier personnage à avoir vu le jour. Ayant le rôle principal, il devait pouvoir à lui seul représenter correctement l'univers de Styx.</p>
+         
+         <p>Bedonnant, moustachu et une tenue d'aviateur, c'est en imaginant la caricature de ce à quoi pourrait ressembler un pilote russe de 1910 que les premiers traits d'Henry se sont formés. Malgré le lieu de l'histoire <span id="com">(la mort quoi)</span> je voulais que le personnage garde bonne mine et reste souriant.</p>
+         
+         <img id="croquis-henry" src="img/case/henry-dev.png" alt="développement Henry">
+         
+         
+         <div id="dial-fourth" class="henry-dial">
+            <div data-sr="wait 0.9s, enter left, hustle 20px" class="portrait" id="portrait-4"></div>
+                <section data-sr="wait 1.2s, enter left, hustle 20px" class="sms" id="sms-4">
+                    <h6>Message d'Henry :</h6>
+                    <p>Et parmis toutes les couleurs de moustache disponnibles, il a choisi le roux...</p>
+                </section>
+            </div>
+            
+         <a id="back-fleche" href="parcours.html#perso-princip"><div class="flch flch-gauche"></div>Parcours</a>   
+         
+         
+      </div>
+     
+         <footer>
+        <div class="content" style="display:block; visibility: visible; opacity:1;"> 
+            
+            <div id="footer-logo">
+                <h2>Styx</h2>
+                <p>L'aventure continue</p>
+            </div>
+            
+            <section>
+                <h3>Github</h3>
+                <p>La première intégration du jeu arrive.<br/> Retrouvez la sur <a href="https://github.com/GotaBird/styx.game" target="_blank">Github</a></p>
+            </section>
+            
+            <section>
+                <h3>Instagram</h3>
+                <p>Retrouvez l’univers Styx sur instagram.
+<br/>Abonnez-vous à <a href="https://instagram.com/styx.game/" target="_blank">styx.game</a></p>
+            </section>
+            <section>
+                <h3>Contact</h3>
+                <p>Une question, une suggestion ? <br/><a href="mailto:kevdelval@gmail.com">kevdelval@gmail.com</a></p>
+            </section>
+            
+            <p id="copyrights">© Kevin Delval 2015. All rights reserved</p>
+        </div>
+    </footer>
+     
+     
+</div><!-- end container -->
+        
+        <script src="js/jquery-min.js"></script>
+    <script src='js/scrollReveal.min.js'></script>
+	<script src="js/main.js"></script>
+    <script>
+        
+      window.sr = new scrollReveal();
+        
+        $('#back-fleche').mouseenter(function(){
+        $(this).html('<div class="flch flch-gauche"></div>Retour');
+    }); $('#back-fleche').mouseleave(function(){
+        $(this).html('<div class="flch flch-gauche"></div>Parcours');
+    });
+    </script>
+    </body>

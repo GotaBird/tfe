@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Première approche - Styx</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Styx est un projet de jeu imaginé pour iPad. Parcourez son case study pour en apprendre plus sur son évolution.">
+    <meta name="Keywords" content="Styx, case study, jeu iPad, styx game">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="css/reset.css" >
+    <link rel="stylesheet" type="text/css" href="css/main.css" >
+     <link rel="stylesheet" type="text/css" href="css/responsive.css" >
+    
+    <style type="text/css">
+        #en-tete:after{
+            display:none;
+        }
+        #en-tete{
+            max-width: 1280px;
+            margin: auto;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <aside>
+        <h1><a href="index.html">Styx</a></h1>
+        
+        <a id="open" href="#open">Menu</a>
+        
+        <ul>
+            <li><a href="index.html"><h5>Introduction</h5><p>Envie d'une histoire</p></a></li>
+            <li class="current"><a href="#"><h5>Parcours</h5><p>Première approche</p></a></li>
+            <li><a href="hub/index.php"><h5>Hub</h5><p>Et ensuite ?</p></a></li>
+            <li><a href="partage.php"><h5>Partage</h5><p>À vos crayons !</p></a></li>
+        </ul>
+    </aside><!-- end aside -->
+    
+<div id="container">
+    
+   <div id="en-tete" style="background-image:url(img/landing.jpg);">
+    </div>
+    <div class="content" style="display:block; visibility: visible; opacity:1;"> 
+        
+        <section id="first-section">
+            <h3>L'objectif</h3>
+            <p>Vous l’avez donc compris, mon objectif est de finir par pouvoir réaliser mon propre jeu iPad par mes propres moyens et ce, même si je n’en ai pas les compétences. Heureusement tout s’apprend.</p>
+            <p>Mais avant d’être une aventure numérique, Styx est d’abord un parcours personnel extrêmement enrichissant que j’aimerais partager avec vous.</p>
+            
+            <div id="dial-first" class="henry-dial">
+                <section data-sr="wait 1.7s,enter right, hustle 20px" class="sms" id="sms-1">
+                    <h6>Message d'Henry :</h6>
+                    <p>Ah ben c’est bien tout ça mais pour que j’existe il faut d’abord que tu écrives une histoire non ?</p>
+                </section>
+                <div data-sr="wait 1.5s, enter right, hustle 20px" class="portrait" id="portrait-1"></div>
+            </div>
+    
+        </section><!-- end first-section -->
+    
+        <section id="secound-section">
+            
+            <div class="square_title" id="secound_square">
+            <h3>Une aventure dans l'au-delà</h3>
+            <p>En effet, il faut une histoire. Styx comme son nom le laisse deviner se passe sur les rives d’un célèbre fleuve du même nom. Retrouvez Henry, un jeune défunt bien décidé à trouver un moyen de traverser le fleuve sans payer le Passeur.</p>
+            
+            <a id="lire-histoire" href="histoire.html">Lire le premier chapitre</a>
+            </div>
+        
+            <div id="story_image"></div>
+
+        </section><!-- end secound-section -->
+        
+        <div id="dial-secound" class="henry-dial">
+            <div data-sr="wait 0.9s, enter left, hustle 20px" class="portrait" id="portrait-2"></div>
+                <section data-sr="wait 1.2s, enter left, hustle 20px" class="sms" id="sms-2">
+                    <h6>Message d'Henry :</h6>
+                    <p>Tiens, j’ai grossi... <br/>Bon l’histoire c’est chouette mais ce qui m’intéresse aussi c’est la façon dont je vais la vivre !</p>
+                </section>
+        </div>
+    
+        <section id="third-section">
+            <img src="img/case/feu-follet.png" alt="feu-follet traçant une courbe">
+            <div id="bloc-text">
+            <h3>Le gameplay et l’expérience de jeu</h3>
+            <p>Le gameplay est une facette intéressante à développer. Malheureusement pour Henry, il finira bien par se faire capturer par le passeur <span id="com">(sinon c’est pas drôle)</span>  et ce sera dans l’antre de ce dernier et à travers une série de niveaux à énigmes que Henry, aidé par le joueur, devra évoluer.</p>
+            
+            <p>Il fallait également exploiter l’avantage du tactile de l’iPad. Le joueur pourra ainsi interagir directement avec les décors ou donner des ordres à Henry, en incarnant le «feu-follet». Un système de jeu où ce sera par des dessins sur votre tablette que vous vous ferez comprendre.</p>
+            </div><!-- end bloc-text -->
+        </section><!-- end third-section -->
+        
+        <section id="fourth-section">    
+        <ul id="evolution">
+            <li class="top" id="ul-title">
+                <h3>Un univers graphique qui se développe</h3>
+            <p>Créer l’univers graphique de Styx est tout un apprentissage artistique. N’ayant eu que des « notions » de dessins jusqu’à maintenant et pour évoluer au mieux dans ce projet, il m’a fallu à nouveau apprendre le dessin à sa base traditionnelle.</p>
+            </li>
+            <li class="top" id="li-img"></li>
+            <li class="top">
+                <div class="univ-img-top" id="janv"></div>
+                <div class="univ-txt-top"><h4>#1<br/>Janvier</h4> <p>Premiers essais sur Henry et réflexions sur le style.</p></div>
+            
+                <div id="cray-un"></div>
+            </li>
+            <li class="bottom" id="hen-cray"></li>
+            <li class="bottom" id="mars-li">
+                <div class="univ-img" id="mars"></div>
+                <div class="univ-txt"><h4>#2<br/>Mars</h4> <p>Mise en place des décors et de l’univers crayonné.            </p></div>
+            </li>
+            <li class="bottom" id="av-last">
+                <div class="univ-img" id="avril"></div>
+                <div class="univ-txt"><h4>#3<br/>Avril</h4> <p>La direction artistique du projet est définie et le concept semble bien lancé.</p></div>
+            </li>
+        </ul>
+        </section><!-- end fourth-section -->
+        
+        <div id="dial-third" class="henry-dial">
+                <section data-sr="wait 1.2s, enter left, hustle 20px" class="sms" id="sms-3">
+                    <h6>Message d'Henry :</h6>
+                    <p>Quoi c'est ça mon apparence définitive ? Vraiment ?</p>
+                </section>
+                <div data-sr="wait 0.9s, enter left, hustle 20px" class="portrait" id="portrait-3"></div>
+            </div>
+        
+        <section id="fifth-section">
+            <ul id="perso-princip">
+                <li id="perso-intro">
+                    <h3>Les personnages principaux</h3>
+                <p>Henry a bien évolué et ma façon de travailler également. Je peux enfin cibler les personnages principaux et l’univers qui doit les entourer. Et tester pour la première fois le digital painting. </p>
+                </li>
+                <li class="decouv-perso"><img src="img/case/passeur-gp.png" alt="Gros plan sur le passeur dans son antre"><a href="passeur.html">Rencontrer le Passeur <div class="flch flch-droite"></div></a></li>
+                <li class="decouv-perso"><img src="img/case/henry-gp.png" alt="Gros plan sur henry dans le village"><a href="henry.html">Rencontrer Henry <div class="flch flch-droite"></div></a></li>
+            </ul>
+        </section><!-- end fifth-section -->
+    
+        <div id="dial-fourth" class="henry-dial">
+            <div data-sr="wait 0.9s, enter left, hustle 20px" class="portrait" id="portrait-4"></div>
+                <section data-sr="wait 1.2s, enter left, hustle 20px" class="sms" id="sms-4">
+                    <h6>Message d'Henry :</h6>
+                    <p>Plutôt sympa comme évolution, mais si tu me dis que ça s'arrête là, c'est décidé j'me barre. Je deviens quoi après ?</p>
+                </section>
+            </div>
+        
+         <section id="sixth-section">
+            
+             <h3>Continuez l’aventure</h3>
+             <p id="sub-title">Poursuivez votre parcours à travers l’évolution du projet</p>
+             
+            <ul>
+                <li id="link-left"><a href="hub/index.php">
+                    <h4><span>styx</span>Hub</h4>
+                    <p>suivez son développement</p>
+                    <p id="fleche-again">Parcourir <img src="img/fleche-again.png" alt="fleche-blanche"></p>
+                    </a>
+                </li>
+                <li id="link-right"><a href="partage.php">
+                    <h4>Envie d’illustrer ?</h4>
+                    <p>créez votre propre personnage</p>
+                    <p id="fleche-again">Essayer <img src="img/fleche-again.png" alt="fleche-blanche"></p>
+                    </a>
+                </li>
+            </ul>
+        </section><!-- end third-section -->
+        
+    </div><!-- end content -->
+    
+    <footer>
+        <div class="content" style="display:block; visibility: visible; opacity:1;"> 
+            
+            <div id="footer-logo">
+                <h2>Styx</h2>
+                <p>L'aventure continue</p>
+            </div>
+            
+            <section>
+                <h3>Github</h3>
+                <p>La première intégration du jeu arrive.<br/> Retrouvez la sur <a href="https://github.com/GotaBird/styx.game" target="_blank">Github</a></p>
+            </section>
+            
+            <section>
+                <h3>Instagram</h3>
+                <p>Retrouvez l’univers Styx sur instagram.
+<br/>Abonnez-vous à <a href="https://instagram.com/styx.game/" target="_blank">styx.game</a></p>
+            </section>
+            <section>
+                <h3>Contact</h3>
+                <p>Une question, une suggestion ? <br/><a href="mailto:kevdelval@gmail.com">kevdelval@gmail.com</a></p>
+            </section>
+            
+            <p id="copyrights">© Kevin Delval 2015. All rights reserved</p>
+        </div>
+    </footer>
+    
+</div><!-- end container -->
+
+    <script src="js/jquery-min.js"></script>
+    <script src='js/scrollReveal.min.js'></script>
+	<script src="js/main.js"></script>
+    <script>
+
+      window.sr = new scrollReveal();
+
+    </script>
+</body>
+</html>

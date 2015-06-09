@@ -1,0 +1,292 @@
+@media screen and (max-width: 1280px){
+    
+    .content{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #fleche-1{left: 61%;right: 0;}
+    #secound blockquote p{padding-left:25px; }
+    #first{right: 50px;}
+    
+    #explique section{
+    position :absolute;
+    max-width: 500px;
+    top: 90px;
+    left:375px;
+    }
+    #search-form{
+        right: 80px;
+        width: 22%;
+    }
+    #search-form input{
+        width: 70%;
+    }
+    #lien-instagram{right: 36px;}
+    
+}
+
+@media screen and (max-width: 980px){
+
+#envie_left{
+    width: 100%;
+    height: 300px;
+    height: 300px;
+}    
+#envie_left h3{margin-top: 100px; text-align: center;}
+#envie_right{
+    display: block;
+    width: 100%;
+    height: 300px;
+    position: static;
+}
+    .tiers{height: auto;}
+#flou-mais{height: 300px;padding-top: 118px;}
+#flou-mais-2 {
+  height: 315px;
+  padding-top: 50px; padding-left: 0px;}  
+#flou-mais-2 p {margin-left: 50px;}
+#alors {padding-top: 39px; height: 300px; overflow: hidden;}
+#alors h3 {margin-left: 50px; position: relative; z-index: 1;}
+#alors p {margin-left: 50px; position: relative; z-index: 1;}
+#alors img{right: -125px;top: -35px; z-index: 0;} 
+    
+#search-form{right: 46px;}
+    
+.cover{display:block; width: 100%; height: 252px;}    
+#first-section p{width: 100%;}
+    .square_title{
+        width: 100%;
+        min-height: auto;
+    }
+#secound_square{
+        min-height: 300px;
+    }
+#story_image{
+        width: 100%;
+        min-height: 300px;
+        margin-top: 0px;
+        margin-left: 0%;
+        background-position: center;
+    }
+    
+#third-section h3{padding-right: 25px; padding-left: 25px;}
+#third-section p{margin-bottom: 25px; padding-right: 25px; padding-left: 25px;}
+#third-section #bloc-text{width: 100%; position: static;}
+#third-section img{ margin-top:25px; margin-bottom: 25px;}
+
+#evolution{
+    height: 950px;
+}
+.top{height: 33.33%;}
+.bottom{height: 16.6%;}
+
+#evolution li{width: 50%;}
+
+#hen-cray{height: 16.6%;}
+#mars{height: 100%;}
+#avril{height: 100%;}
+#av-last{position: absolute;height: 16.6%; }
+.univ-img{display: block; position: absolute; width: 50%; height: 100%; top: 0; left:0;}
+
+#mars-li{height: 16.8%;}
+#perso-princip li{float: left;}
+#perso-princip #perso-intro{
+    width: 100%;
+    position: static;
+    margin-bottom: 25px;
+
+}
+    #sms-4{top:67px;}
+#perso-princip .decouv-perso{
+    width: 48%;
+    margin-right:1%;
+    margin-left: 1%;
+}
+    
+
+#dial-first{padding-right: 0px;position: relative;margin-left: 20%;}
+#portrait-1{
+    top:-28px !important;
+    right: -180px !important;
+}
+
+
+.inst_img{
+    width: 50%;
+}
+    
+#explique section{
+    padding-right: 25px;
+    }
+    
+#liste_articles li{
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    margin-left: 1%;
+} 
+#liste_articles li:first-child{
+    width: 100%;
+}
+    
+#article_name span{font-size: 18px; margin-bottom: 10px;}
+#article_name h4{font-size: 20px;}
+   
+}
+@media screen and (max-width:880px){
+    #explique img{display: block;  margin-bottom: 25px; padding-top: 25px;}
+    #explique section{position: relative; top:0; left: 0; padding-bottom: 10px;}
+    #dossier p{text-align: center; padding-bottom: 9px;}
+    #dossier a{text-align: center; padding-bottom: 9px;}
+    footer section{width: 46%;}
+    
+}
+
+@media screen and (max-width: 680px){
+    #envie{}
+    
+    #envie_left{
+    width: 100%;
+   height: 300px;
+}    
+#envie_left h3{margin-top: 100px; text-align: center;}
+#envie_right{height: auto;margin-left: 0px;}
+#envie_right p{margin: 0; margin-bottom: 25px; padding-left: 25px; padding-right: 25px;}
+    
+.tiers{height: auto;}
+#flou-mais{padding-top: 98px;}
+#flou-mais-2 {height: auto; padding-left: 25px; padding-right: 25px; padding-bottom: 50px;}  
+#flou-mais-2 p {margin-left: 0px;}
+#alors {padding-top: 39px; padding-left: 25px; padding-right: 25px; height: auto; overflow: hidden;}
+#alors h3 {margin-left: 0px;}
+#alors p {margin-left: 0px; }
+#alors img{position: static;} 
+    
+    
+    #en-tete{height: 250px;}
+    #en-tete img{max-width: 200%; margin-left: -50%;}
+    #en-tete p{font-size: 15px; line-height: 24px;}
+    .content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #introduction{
+    padding-top: 50px;
+}
+    #first{
+    position: static;
+    width: 100%;
+    min-height: 375px;
+    }
+    #author_credits{
+        bottom:375px;
+    }
+    #tableau{
+        background-position: left;
+    }
+    #secound{padding-top: 25px; padding-bottom: 25px;}
+    .henry-dial{display: none;}
+    #secound blockquote{position: static; margin-top: 25px;}
+    #secound blockquote p{width: 100%; padding-left: 25px;padding-right: 25px;}
+
+    #secound_col_left{position: static;width: 100%; margin-top: 50px; padding-left: 25px;padding-right: 25px;}
+    #secound_col_right{position: static;width: 100%; margin-top: 50px; padding-left: 25px;padding-right: 25px; padding-bottom: 25px;}
+    
+    #third #third_left{position: static;width: 100%; margin-top: 75px;}
+    #third #third_right{position: static;width: 100%;margin-top: 25px;}
+    #mars-li, #av-last{
+        height: 10%;
+    }
+    #first-section{
+        padding-left:25px;
+        padding-right:25px;
+    }
+    #secound_square{min-height: 370px;}
+    #story_image{min-height: 370px;}
+    
+    #evolution{
+    height: 1800px;
+    }
+    .top{height: 20%;}
+    .bottom{height: 10%;}
+
+    #evolution li{width: 100%;}
+
+    #hen-cray{height: 10%;}
+    
+    #explique{margin-top:-50px;}
+    #explique section{padding-left: 25px; padding-right: 25px;}
+    #dossier{padding-left: 25px; padding-right: 25px;}
+    #merci-stagram{padding-left: 25px; padding-right: 25px;}
+    
+    #lien-instagram{
+    display: none;
+    }
+    #mobile-link{
+    display: inline-block;
+    float: right;
+    width:30px;
+    height: 30px;
+    margin-top: 2px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(../img/insta/mobile-link.png); 
+    }
+    #perso-princip li{float: none; margin-bottom: 25px;}
+    #perso-princip .decouv-perso {width: 98%;}
+    #perso-intro{padding-left: 25px; padding-right: 25px;}
+    #description_persos{padding-left: 25px; padding-right: 25px;}
+    #description_persos img{
+    margin: auto;
+    display: block;
+    width: 110%;
+}
+     #liste_articles{padding-left: 12.5px; padding-right: 12.5px;}
+    #liste_articles li{
+    display: inline-block;
+    width: 100%;
+        height: 200px !important;
+    margin-bottom: 2%;
+    margin-right: 0%;
+    margin-left: 0%;
+} 
+    
+    
+    #sixth-section{margin-top: 100px;}
+    #sixth-section ul li{width: 100%;}
+    #link-left{margin-bottom: 0px !important;}
+    
+    #liste_articles li .article_bg:before{
+    height: 53%;
+    padding-top: 17%;
+    }
+    
+    #search-form{
+        right: 0px;
+        width: 45%;
+    }
+    #search-form input{
+        width: 70%;
+        margin-left: 5px;
+    }
+    footer{padding-left:25px; padding-right: 25px; }
+    footer section{width: 100%;}
+    
+    #commentaires section{width: 100%;}
+    #commenter textarea{width: 100%;}
+    #commentaire section{width: 100%;}
+    }
+    
+@media screen and (max-width: 560px){
+    
+    #story_image{min-height: 200px;}
+    .inst_img{width: 100%;}
+    
+   
+    #liste_articles li{margin-bottom: 12.5px;}
+    .article_name{height: 35%;}
+    .article_name span{font-size: 15px; margin-bottom: 5px;}
+    .article_name h4{font-size: 18px;}
+    
+}

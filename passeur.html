@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width" />
+        <title>Rencontrer Henry - Styx</title>
+         <meta name="description" content="Styx est un projet de jeu imaginé pour iPad. Rencontrez le passeur, l'un des personnages principaux.">
+    <meta name="Keywords" content="Styx, case study, jeu iPad, styx game">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+         <link rel="stylesheet" href="css/responsive.css" >
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="shortcut icon" href="img/favicon.png">
+    </head>
+    <body>
+       <aside>
+        <h1><a href="index.html">Styx</a></h1>
+        
+        <a id="open" href="#open">Menu</a>
+        
+        <ul>
+            <li><a href="index.html"><h5>Introduction</h5><p>Envie d'une histoire</p></a></li>
+            <li class="current"><a href="parcours.html"><h5>Parcours</h5><p>Première approche</p></a></li>
+            <li><a href="hub/index.php"><h5>Hub</h5><p>Et ensuite ?</p></a></li>
+            <li><a href="partage.php"><h5>Partage</h5><p>À vos crayons !</p></a></li>
+        </ul>
+    </aside><!-- end aside -->
+        
+        
+ <div id="container">
+     <div id="en-tete" style="background-image:url(img/passeur-cover.png);">
+        
+    </div>
+     <div class="content" id="description_persos" style="display:block; visibility: visible; opacity:1;">
+        
+            <h3>Le Passeur</h3>
+            
+            <h4>Histoire</h4>
+            
+            <p>Anciennement bras-droit de la Mort, si le Passeur ne s’occupe plus que de faire passer les âmes vers l’Outre-Monde, c’est sans doute à cause de sa cupidité qui l’a amené à se faire corrompre par les vivants. </p>
+ 
+            <p>Se retrouvant à un poste plus inférieur que celui qu’il occupait avant, il continue cependant d’alimenter sa richesse personnelle en demandant une compensation financière aux âmes qui désireraient passer le Styx. Ledit prix évoluant selon les exactions passées, l’on comprend plus facilement pourquoi le Passeur désire tout particulièrement s’occuper d’Henry. 
+</p>
+         
+            <h4>Concept</h4>
+            
+            <p>Malgré sa ressemblance avec "La Mort", je voulais donner au passeur un air d'enfant capricieux. Une cape trop grande pour lui, des sourcils osseux froncés, il y a néanmoins un côté attachant chez lui qui l'intègre mieux à l'univers.</p>
+         
+            
+         <img src="img/case/passeur-dev.png" alt="développement passeur">
+         
+            
+         <a id="back-fleche" href="parcours.html#perso-princip"><div class="flch flch-gauche"></div>Parcours</a>   
+         
+         
+      </div>
+     
+         <footer>
+        <div class="content" style="display:block; visibility: visible; opacity:1;"> 
+            
+            <div id="footer-logo">
+                <h2>Styx</h2>
+                <p>L'aventure continue</p>
+            </div>
+            
+            <section>
+                <h3>Github</h3>
+                <p>La première intégration du jeu arrive.<br/> Retrouvez la sur <a href="https://github.com/GotaBird/styx.game" target="_blank">Github</a></p>
+            </section>
+            
+            <section>
+                <h3>Instagram</h3>
+                <p>Retrouvez l’univers Styx sur instagram.
+<br/>Abonnez-vous à <a href="https://instagram.com/styx.game/" target="_blank">styx.game</a></p>
+            </section>
+            <section>
+                <h3>Contact</h3>
+                <p>Une question, une suggestion ? <br/><a href="mailto:kevdelval@gmail.com">kevdelval@gmail.com</a></p>
+            </section>
+            
+            <p id="copyrights">© Kevin Delval 2015. All rights reserved</p>
+        </div>
+    </footer>
+     
+</div><!-- end container -->
+        
+        <script src="js/jquery-min.js"></script>
+    <script src='js/scrollReveal.min.js'></script>
+	<script src="js/main.js"></script>
+    <script>
+
+      window.sr = new scrollReveal();
+        
+        $('#back-fleche').mouseenter(function(){
+        $(this).html('<div class="flch flch-gauche"></div>Retour');
+    }); $('#back-fleche').mouseleave(function(){
+        $(this).html('<div class="flch flch-gauche"></div>Parcours');
+    });
+    </script>
+    </body>
